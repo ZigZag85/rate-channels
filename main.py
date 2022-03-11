@@ -5,9 +5,9 @@ from plugins.start_handler import start_handler
 
 app = Client(
     'rateChannels',
-    api_id=1,
-    api_hash="b6b154c3707471f5339bd661645ed3d6",
-    bot_token="",
+    api_id=2328433,
+    api_hash="499e1423e008e12e8909a18b2ecfc407",
+    bot_token="5102085268:AAHQKo41OIWmuoH0y8EFUubgilrnaDzu2uQ",
     plugins={'root': 'plugins'}
 )
 app.add_handler(CallbackQueryHandler(start_handler, Filters.callback_data('home')))
